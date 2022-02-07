@@ -5,22 +5,8 @@
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 21+ devices.
     -->
-    <style name="AndroidTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
-        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
-    </style>
-    <style name="AndroidDarkTheme" parent="@android:style/Theme.Material">
-        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
-        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
-    </style>
-
-    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
-        <item name="android:fontFamily">sans-serif-light</item>
-    </style>
-
-    <style name="RobotoButtonStyle" parent="android:Widget.Material.Button">
-        <item name="android:fontFamily">sans-serif-light</item>
-    </style>
+    <style name="AndroidTheme" parent="@android:style/Theme.Material.Light.DarkActionBar"/>
+    <style name="AndroidDarkTheme" parent="@android:style/Theme.Material"/>
 
     <style name="AppBaseTheme" parent="AndroidTheme">
         <item name="listContentHeader">?android:attr/listSeparatorTextViewStyle</item>
